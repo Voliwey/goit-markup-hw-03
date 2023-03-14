@@ -10,103 +10,141 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Second Homework</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html" class="link logo-fontheader"><span class="logo">WEB</span>STUDIO</a>
-            <ul class="team-list">
-                <li><a href="./index.html" class="link nav-links hover-nav">Studio</a></li>
-                <li><a href="./portfolio.html" class="link nav-links hover-nav">Portfolio</a></li>
-                <li><a href="#" class="link nav-links hover-nav">Contacts</a></li>
-            </ul>
+    <header class="header">
+        <div class="container header-container">
 
-            <address>
+            <nav class="navigation">
+                <a href="./index.html" class="link logo-fontheader"><span class="logo">WEB</span>STUDIO</a>
                 <ul class="team-list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="link section-text hover-nav">info@devstudio.com</a>
+                    <li class="item"><a href="./index.html" class="link nav-links hover-nav">Studio</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link nav-links hover-nav">Portfolio</a></li>
+                    <li class="item"><a href="#" class="link nav-links hover-nav">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <address class="address">
+                <ul class="address-list">
+                    <li class="item">
+                        <a href="mailto:info@devstudio.com" class="link address-text hover-nav">info@devstudio.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+11(000)111-11-11" class="link section-text hover-nav">+11 (000) 111-11-11</a>
+                    <li class="item">
+                        <a href="tel:+11(000)111-11-11" class="link address-text hover-nav">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
-        </nav>
+
+        </div>
     </header>
 
     <main>
-        <section>
-            <h1 class="visually-hidden">Our work</h1>
-            <ul class="team-list">
-                <li><button type="button" class="button-secondpage hover-secondpage">All</button></li>
-                <li><button type="button" class="button-secondpage hover-secondpage">Web Site</button></li>
-                <li><button type="button" class="button-secondpage hover-secondpage">App</button></li>
-                <li><button type="button" class="button-secondpage hover-secondpage">Design</button></li>
-                <li><button type="button" class="button-secondpage hover-secondpage">Marketing</button></li>
-            </ul>
+        <section class="section-button">
+            <div class="container">
+                <h1 class="visually-hidden">Our work</h1>
 
-            <ul class="team-list">
-                <li>
-                    <h2 class="visually-hidden">Progect title</h2>
-                </li>
-                <li>
-                    <img src="./img/frame-8.jpg" alt="Banking App Interface Concept" width="360">
-                    <h2 class="title-progect">Banking App Interface Concept</h2>
-                    <p class="section-text">App</p>
-                </li>
-                <li>
-                    <img src="./img/frame-9.jpg" alt="Cashless Payment" width="360">
-                    <h2 class="title-progect">Cashless Payment</h2>
-                    <p class="section-text">Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/frame-10.jpg" alt="Meditaion App" width="360">
-                    <h2 class="title-progect">Meditaion App</h2>
-                    <p class="section-text">App</p>
-                </li>
-                <li>
-                    <img src="./img/frame-11.jpg" alt="Taxi Service" width="360">
-                    <h2 class="title-progect">Taxi Service</h2>
-                    <p class="section-text">Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/frame-12.jpg" alt="Screen Illustrations" width="360">
-                    <h2 class="title-progect">Screen Illustrations</h2>
-                    <p class="section-text">Design</p>
-                </li>
-                <li>
-                    <img src="./img/frame-13.jpg" alt="Online Courses" width="360">
-                    <h2 class="title-progect">Online Courses</h2>
-                    <p class="section-text">Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/frame-14.jpg" alt="Instagram Stories Concept" width="360">
-                    <h2 class="title-progect">Instagram Stories Concept</h2>
-                    <p class="section-text">Design</p>
-                </li>
-                <li>
-                    <img src="./img/frame-15.jpg" alt="Organic Food" width="360">
-                    <h2 class="title-progect">Organic Food</h2>
-                    <p class="section-text">Web Site</p>
-                </li>
-                <li>
-                    <img src="./img/frame-16.jpg" alt="Fresh Coffee" width="360">
-                    <h2 class="title-progect">Fresh Coffee</h2>
-                    <p class="section-text">Web Site</p>
-                </li>
-            </ul>
+                <ul class="team-lists button">
+                    <li class="buttons"><button type="button"
+                            class="button-secondpage hover-secondpage buttonslast">All</button>
+                    </li>
+                    <li class="buttons"><button type="button" class="button-secondpage hover-secondpage buttonslast">Web
+                            Site</button></li>
+                    <li class="buttons"><button type="button"
+                            class="button-secondpage hover-secondpage buttonslast">App</button>
+                    </li>
+                    <li class="buttons"><button type="button"
+                            class="button-secondpage hover-secondpage buttonslast">Design</button>
+                    </li>
+                    <li class="buttons"><button type="button"
+                            class="button-secondpage hover-secondpage buttonslast">Marketing</button></li>
+                </ul>
+
+                <ul class="projects-list">
+                    <li>
+                        <h2 class="visually-hidden">Progect title</h2>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-8.jpg" alt="Banking App Interface Concept" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Banking App Interface Concept</h2>
+                            <p class="section-text">App</p>
+                        </div>
+
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-9.jpg" alt="Cashless Payment" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Cashless Payment</h2>
+                            <p class="section-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-10.jpg" alt="Meditaion App" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Meditaion App</h2>
+                            <p class="section-text">App</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-11.jpg" alt="Taxi Service" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Taxi Service</h2>
+                            <p class="section-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-12.jpg" alt="Screen Illustrations" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Screen Illustrations</h2>
+                            <p class="section-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-13.jpg" alt="Online Courses" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Online Courses</h2>
+                            <p class="section-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-14.jpg" alt="Instagram Stories Concept" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Instagram Stories Concept</h2>
+                            <p class="section-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-15.jpg" alt="Organic Food" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Organic Food</h2>
+                            <p class="section-text">Web Site</p>
+                        </div>
+                    </li>
+                    <li class="project-item">
+                        <img src="./img/frame-16.jpg" alt="Fresh Coffee" width="360">
+                        <div class="project-content">
+                            <h2 class="title-progect">Fresh Coffee</h2>
+                            <p class="section-text">Web Site</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>
 
     <footer class="footer-container">
-        <a href="./index.html" class="logo-fontfooter link"><span class="logo">WEB</span>STUDIO</a>
-        <p class="text-footer">Increase the flow of customers and sales for your business with digital marketing growth
-            solutions.
-        </p>
+        <div class="container">
+            <a href="./index.html" class="logo-fontfooter link footer-body"><span class="logo">WEB</span>STUDIO</a>
+            <p class="text-footer">Increase the flow of customers and sales for your business with digital marketing
+                growth
+                solutions.
+            </p>
+        </div>
     </footer>
 
 </body>
